@@ -42,10 +42,4 @@ Este projeto é uma solução para o desafio **"Interactive Card Details Form"**
 - **Tela de Conclusão**: 
   - Após o envio bem-sucedido do formulário, é exibida uma tela de agradecimento com a opção de continuar.
 
----
 
-## 🛠️ Como Rodar o Projeto
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
