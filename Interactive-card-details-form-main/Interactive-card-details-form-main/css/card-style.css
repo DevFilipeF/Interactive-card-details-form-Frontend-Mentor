@@ -1,0 +1,150 @@
+.card-container {
+    background-image: url("/images/bg-main-desktop.png");
+    background-color: #21092f; 
+    height: 230px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.card {
+    position: absolute;
+    width: 280px;
+}
+.card-back {
+    top: 2em;
+    left: 4em;
+}
+.card-front{
+    top: 7em;
+    left: 1.2em
+}
+
+.card-logo {
+    position: absolute; 
+    width: 60px;
+    top: 8em;
+    left: 1.9em;
+}
+
+.card-text {
+    position: absolute;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: .2em;
+
+    
+}
+
+.card-number {
+    
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: .1em;
+    top: 11em;
+    left: 2em;
+}
+.card-name {
+    top: 25.5em;
+    left: 3.8em;
+}
+
+.card-cvc {
+    top: 10.5em;
+    left: 29.5em;
+}
+
+.card-exp {
+    top: 25.5em;
+    left: 24.5em;
+}
+@media screen and (min-width: 720px){
+
+    .card-back {
+        top: 1em;
+        left: 14em ;
+    }
+    .card-front{
+        top: 5.8em;
+        left: 10em;
+    }
+
+
+    .card-number {
+        top: 10.3em;
+        left: 10.5em;
+    }
+    .card-name {
+        top: 23em;
+        left: 20em;
+    }
+    
+    .card-cvc {
+        top: 9em;
+        left: 47.5em;
+    }
+    
+    .card-exp {
+        top: 23em;
+        left: 40em;
+    }
+    .card-logo {
+        top: 6.7em;
+        left: 11em;
+    }
+} 
+
+@media screen and (min-width: 1280px) {
+
+    .card {
+        width: 360px;
+    }
+    .card-container {
+        width: 50%; 
+        height: 100vh; 
+    }
+
+    .card-back {
+        top: 17em;
+        left: 14em ;
+    }
+    .card-front{
+        top: 5em;
+        left: 8em;
+    }
+
+    .card-text{       
+        font-size: 11px;
+ }
+
+    .card-number {
+        font-size: 25px;
+        top: 8.3em;
+        left: 6.5em;
+    }
+    .card-name {
+        letter-spacing: .2em;
+        top: 16rem;
+        left: 15em;
+    }
+    
+    .card-cvc {
+        font-size: 12px;
+        letter-spacing: .2em;
+        top: 24.9rem;
+        left: 33.5rem;
+    }
+    
+    .card-exp {
+        letter-spacing: .2em;
+        top: 16rem;
+        left: 40em;
+    }
+    .card-logo {
+        width: 70px;
+        top: 6.7em;
+        left: 9em;
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/card-style.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/finish.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+
+<body>
+  <section class="layout">
+    <div class="card-container">
+      <img src="images/bg-card-back.png" alt="" class="card card-back">
+      <img src="images/bg-card-front.png" alt="" class="card card-front">
+      <img src="images/card-logo.svg" alt="" class="card-logo">
+      <span class="card-text card-number">0000 0000 0000 0000</span>
+      <span class="card-text card-name">Jane Appleseed</span>
+      <span class="card-text card-exp">
+        <span class="card-month">00</span>/<span class="card-year">00</span>
+      </span>
+      <span class="card-text card-cvc">000</span>
+    </div>
+
+    <div class="form-section">
+      <div class="form" >
+        <form id="formulario" autocomplete="off">
+          <label for="inputCardName" class="labelForm">Cardholder Name</label><br>
+          <input type="text" id="inputCardName" class="input" placeholder="e.g Jane Appleseed" maxlength="40" required><br><span class="error-message-name errorX hidden"></span><br>
+          
+          <label for="inputCardNumber" class="labelForm">Card Number</label><br>
+          <input type="number" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+          minlength="16" maxlength="16" id="inputCardNumber" class="input" placeholder="e.g. 1234 5678 9123 0000" required><br><span class="error-message-number errorX hidden"></span><br>
+           
+          <label for="inputCardMounth" class="labelForm">Exp. Date (MM/YY)</label>
+          <label for="inputCardCvc" class="labelForm label-cvc">CVC</label><br>
+          <div class="tresInputs">
+            <div>
+              <input type="number" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              minlength="2" maxlength="2" id="inputCardMonth" class="input" placeholder="MM" required>
+            </div>
+            <div>
+              <input type="number" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              minlength="2" maxlength="2" id="inputCardYear" class="input" placeholder="YY" required>
+            </div>
+            <div>
+              <input type="number" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              minlength="3" maxlength="3" id="inputCardCvc" class="input" placeholder="e.g. 123" required><br><span class="error-message-cvc errorX hidden"></span><br>
+            </div>
+          </div>
+          <span class="error-message-date errorX hidden"></span>
+          <input type="submit" value="Confirm" id="confirm">
+        </form>
+      </div>
+    </div>
+    <div class="finish-section hidden">
+      <div class="finish">
+        <img src="images/icon-complete.svg" alt="">
+        <p class="thank-you">Thank you!</p>
+        <p class="thank-you-text">We've added your card details</p>
+        <button class="finish-button">Continue</button>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. |
+      Coded by <a href="" target="_blank">Filipe Ferreira De Araujo</a>.</p>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

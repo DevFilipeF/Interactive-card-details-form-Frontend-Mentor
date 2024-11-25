@@ -1,0 +1,130 @@
+
+.form-section{
+    margin-top: 4em;
+    width: 100%;
+    height: 60vh;
+}
+.form {
+    margin: auto 1em;
+}
+
+.labelForm {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 12px;
+    color: var(--text-violet);
+    margin-top: 5em;
+
+}
+.input {
+    font-family:'Space Grotesk', sans-serif;
+    padding-left: 1em;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-violet);
+    height: 40px;
+    border-radius: 10px;
+    border: var(--text-grey) solid 1px;
+    width: 94%;
+    margin: .7em auto;
+    outline: none;
+}
+
+input::-webkit-input-placeholder{
+    
+    color: var(--text-grey);
+    align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+    border: var(--border-focus) solid 1px;
+}
+
+
+.tresInputs{
+    display: grid;
+    max-width: 97%;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-content:space-between;
+}
+
+#inputCardMonth{
+    max-width: 60%;
+    
+}
+#inputCardYear {
+    max-width: 60%;
+}
+
+#inputCardCvc{
+    max-width: 100%;
+    
+}
+
+#confirm {
+    color: #FFFFFF;
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 18px;
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--text-violet);
+    margin-bottom: 1em;
+}
+
+.error{
+    border: var(--border-null) solid 1px;
+}
+
+.errorX {
+    position: relative;
+    gap: 0;
+    font-size: 10px;
+}
+.error-message-name, .error-message-number, .error-message-cvc{
+    top:-1.6em;
+}
+
+.error-message-date{
+    top:-3.5em;
+}
+.error-message-date::after, .error-message-cvc::after, .error-message-number::after, .error-message-name::after{
+    content: "can't be blank";
+    color: var(--border-null);
+}
+.numbers-out::after{
+    content: "Wrong format, numbers missing";
+    color: var(--border-null);
+}
+
+.invalid::after {    
+    content: "Invalid, numbers missing";
+    color: var(--border-null);
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .form-section{
+        width: 60%;
+        margin: 10em 18em auto 18em;
+    }
+
+    .label-cvc {
+        margin-left: 2.5em;
+    }
+    .error-message-name, .error-message-number, .error-message-cvc{
+        top:-1em;
+    }
+    
+    .error-message-date{
+        top:-2.8em;
+    }
+}
