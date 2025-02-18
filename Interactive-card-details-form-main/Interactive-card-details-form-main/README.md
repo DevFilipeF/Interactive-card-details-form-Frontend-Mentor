@@ -3,7 +3,6 @@
 Esta é uma solução para o [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). 
 Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas...
 
-Este desafio também representa o projeto inicial da mentoria Conquiste Sua Vaga do Pedro Marins.
 
 
 ## O desafio
@@ -24,7 +23,7 @@ Seus usuários devem ser capazes de:
 
 ### Importante!
 Por se tratar de uma página de cadastro de cartões, o navegador pode exibir um aviso de "Site fraudulento".
-Para prosseguir com os testes, permita que seu navegador acesse a página, e lembre-se de nunca inserir dados reais de cartão em sites com essa mensagem ;D
+Para prosseguir com os testes, permita que seu navegador acesse a página, e lembre-se de nunca inserir dados reais de cartão em sites com essa mensagem
 
 ### Comportamento esperado
 
@@ -33,8 +32,3 @@ Para prosseguir com os testes, permita que seu navegador acesse a página, e lem
 - Se não houver erros, exibe o estado concluído
 - Redefina o formulário quando o usuário clicar em "Continuar" no estado concluído
 
-
-Ah, este desafio é totalmente gratuito. 
-Por favor, compartilhe com qualquer pessoa que achará útil para a prática.
-
-**Divirta-se construindo!** 🚀
