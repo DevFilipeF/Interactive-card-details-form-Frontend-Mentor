@@ -6,8 +6,6 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 Este desafio também representa o projeto inicial da mentoria Conquiste Sua Vaga do Pedro Marins.
 
 
-#### [** VOCÊ PODE VER O RESULTADO CLICANDO AQUI **](https://interactive-card-details-form-ten-zeta.vercel.app/)
-
 ## O desafio
 
 O desafio é criar um formulário interativo de detalhes do cartão e deixá-lo o mais próximo possível do design.
@@ -34,15 +32,6 @@ Para prosseguir com os testes, permita que seu navegador acesse a página, e lem
 - Validar os campos do formulário quando o formulário é enviado
 - Se não houver erros, exibe o estado concluído
 - Redefina o formulário quando o usuário clicar em "Continuar" no estado concluído
-
-## Autor
-
-- Website - [Junior Oliveira Leandro](https://www.junior.dev.br)
-- Frontend Mentor - [@junior-leandro](https://www.frontendmentor.io/profile/junior-leandro)
-
-
-
-
 
 
 Ah, este desafio é totalmente gratuito. 
