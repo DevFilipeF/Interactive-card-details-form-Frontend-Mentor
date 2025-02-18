@@ -1,34 +1,35 @@
-## Bem Vindo! 👋
+# Interactive Card Details Form
 
-Esta é uma solução para o [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). 
-Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas...
+Bem-vindo! 👋
 
+Este repositório contém a solução para o desafio [Interactive Card Details Form](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw) do Frontend Mentor. 
 
+## 📌 Descrição do desafio
 
-## O desafio
+O objetivo é desenvolver um formulário interativo para detalhes de cartão, garantindo que ele se aproxime ao máximo do design proposto.
 
-O desafio é criar um formulário interativo de detalhes do cartão e deixá-lo o mais próximo possível do design.
+## 🎯 Funcionalidades
 
-Seus usuários devem ser capazes de:
+- Preenchimento dinâmico dos dados do cartão em tempo real.
+- Validação de entrada do formulário, exibindo mensagens de erro quando necessário.
+- Layout responsivo para diferentes tamanhos de tela:
+  - 🖥️ 1440px para desktop;
+  - 📱 375px para dispositivos móveis.
+- Indicação visual dos estados de foco, ativo e interação nos elementos da página.
 
-- Preencher o formulário e ver a atualização dos dados do cartão em tempo real.
-- Receber mensagens de erro quando o formulário for enviado se:
-  - Qualquer campo de entrada está vazio;
-  - O número do cartão, data de validade ou campos CVC estão no formato errado.
-- Veja o layout ideal dependendo do tamanho da tela do dispositivo. 
-- Os tamanhos de tela propostos no desafio são:
-  - 1440px para desktop. 
-  - 375px para mobile. 
-- Ver os estados de focalização, ativo e foco para elementos interativos na página.
+## ⚠️ Atenção!
 
-### Importante!
-Por se tratar de uma página de cadastro de cartões, o navegador pode exibir um aviso de "Site fraudulento".
-Para prosseguir com os testes, permita que seu navegador acesse a página, e lembre-se de nunca inserir dados reais de cartão em sites com essa mensagem
+Este formulário é apenas uma simulação. Alguns navegadores podem exibir um aviso de "Site fraudulento". Caso isso ocorra, autorize o acesso manualmente, mas **nunca insira dados reais de cartão em páginas não seguras**.
 
-### Comportamento esperado
+## ✅ Comportamento esperado
 
-- Atualizar os dados do cartão à medida que o usuário preenche os campos
-- Validar os campos do formulário quando o formulário é enviado
-- Se não houver erros, exibe o estado concluído
-- Redefina o formulário quando o usuário clicar em "Continuar" no estado concluído
+1. Os dados do cartão são atualizados conforme o usuário preenche os campos.
+2. Os campos do formulário são validados ao enviar.
+3. Se todas as informações estiverem corretas, exibe uma mensagem de sucesso.
+4. O formulário é redefinido quando o usuário clica em "Continuar" após a conclusão.
 
+## 🚀 Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
